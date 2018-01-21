@@ -1,0 +1,22 @@
+{
+  "name": "faerysteel/avs_integration",
+  "description": "Basic Amazon Voice Services integration for Drupal 8",
+  "type": "drupal-module",
+  "homepage": "https://github.com/faerysteel/avs_integration",
+  "authors": [
+    {
+      "name": "Lisa Godare",
+      "homepage": "https://github.com/faerysteel",
+      "role": "Creator"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/faerysteel/avs_integration/issues",
+    "source": "https://github.com/faerysteel/avs_integration"
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+    "minicodemonkey/amazon-alexa-php": "^0.1.5"
+  }
+}
