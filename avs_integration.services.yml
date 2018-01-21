@@ -1,0 +1,6 @@
+services:
+  avs_integregation.route_subscriber:
+    class:  Drupal\avs_integration\Routing\RouteSubscriber
+    arguments: ['@config.factory']
+    tags:  
+      - {name: event_subscriber}
