@@ -39,6 +39,7 @@ class AlexaForm extends ConfigFormBase {
       '#default_value' => $path,
       '#title' => t('Callback Path'),
       '#description' => t('Enter the callback path for Alexa Voice Services'),
+      '#required' => TRUE,
     );
 
     return parent::buildForm($form, $form_state);
