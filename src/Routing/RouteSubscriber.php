@@ -45,6 +45,6 @@ class RouteSubscriber extends RouteSubscriberBase {
       )
     );
 
-    $collection->add('avs_integration.alexa', $route);
+    $collection->add('avs_integration.alexa_callback_url', $route);
   }
 }
