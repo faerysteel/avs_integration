@@ -18,5 +18,19 @@
   "minimum-stability": "dev",
   "require": {
     "minicodemonkey/amazon-alexa-php": "^0.1.5"
-  }
+  },
+  "repositories": [
+      {
+          "type": "package",
+          "package" : {
+              "name": "minicodemonkey/amazon-alexa-php",
+              "version": "0.1.5",
+              "type": "drupal-library",
+              "dist": {
+                  "type": "zip",
+                  "url" : "https://github.com/MiniCodeMonkey/amazon-alexa-php/archive/0.1.5.zip"
+              }
+          }
+      }
+  ]
 }
