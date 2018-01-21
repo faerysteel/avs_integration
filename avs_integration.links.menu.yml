@@ -1,0 +1,7 @@
+avs_integration.alexa_form:
+  title: 'Alexa'
+  route_name: avs_integration.alexa_form
+  description: 'Amazon voice Services integration settings'
+  parent: system.admin_config_services
+  weight: 99
+
